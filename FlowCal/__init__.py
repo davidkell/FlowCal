@@ -9,7 +9,8 @@
 __version__ = '1.3.0'
 
 from . import io
-from . import excel_ui
+# Tkinter unavailable in GCP Functions v1 runtime
+# from . import excel_ui
 from . import gate
 from . import transform
 from . import mef
